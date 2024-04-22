@@ -16,3 +16,7 @@ Ini berarti bahwa program subscriber dan publisher terhubung ke server yang sama
 ![Sending and receiving events](src/asset/sending-receiving.png)
 Ketika publisher dijalankan, program akan mengirim 5 pesan ke broker dan nantinya akan diterima oleh subscriber.
 
+### RabbitMQ Spikes
+![RabbitMQ Spikes](src/asset/rabbitmq-spike.png)
+Spike ini muncul karena program publisher dijalankan sehingga RabbitMQ menerima pesan-pesan baru.
+
