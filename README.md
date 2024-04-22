@@ -10,4 +10,9 @@ e. User ID: "5", Nama Pengguna: "2206828140-Emir"
 Ini berarti bahwa program subscriber dan publisher terhubung ke server yang sama. Jadi nanti publisher akan mengirim event ke servernya, dan subscriber akan mendengar pesan-pesan masuk di server yang sama juga.
 
 ### First run of RabbitMQ
-![RabbitMQ Running](src/asset/image.png)
+![RabbitMQ Running](src/asset/rabbitmq.png)
+
+### Sending and Receiving Events
+![Sending and receiving events](src/asset/sending-receiving.png)
+Ketika publisher dijalankan, program akan mengirim 5 pesan ke broker dan nantinya akan diterima oleh subscriber.
+
